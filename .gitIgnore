@@ -1,0 +1,56 @@
+# Build results
+/bin/
+/obj/
+.env
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuget/
+
+# Dotnet
+*.dll
+*.exe
+*.pdb
+*.cache
+*.dbmdl
+*.bak
+*.log
+*.dmp
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.suo
+
+# Local history for VS Code
+.history/
+
+# Others
+*.swp
+*.tmp
+*.DS_Store
+
+# Ignore config files (if you don't want them in git)
+appsettings.Development.json
+appsettings.json
+
+# Exclude specific folders and files
+!Controllers/
+!Data/
+!Entities/
+!Migrations/
+!Properties/
+WatherForecast.cs
+
+DistrbuidoraAPI.csproj
